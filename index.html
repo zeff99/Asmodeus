@@ -2,94 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library Website</title>
+    <title>Perpustakaan Digital</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigasi -->
     <header>
-        <div class="logo">
-            <img src="logo.png" alt="Library Logo">
-        </div>
+        <h1>Selamat Datang di Perpustakaan Digital</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#books">Books</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#tour">Tur Perpustakaan</a></li>
+                <li><a href="#contact">Kontak</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Bagian Beranda -->
     <section id="home">
-        <div class="banner">
-            <h1>Welcome to Our Library</h1>
-            <p>Explore a world of knowledge and adventure in books!</p>
-            <a href="#books" class="btn">Browse Books</a>
-        </div>
+        <h2>Beranda</h2>
+        <p>Perpustakaan digital menyediakan akses mudah ke berbagai koleksi buku dan bahan bacaan lainnya.</p>
     </section>
 
-    <section id="books">
-        <h2>Featured Books</h2>
-        <div class="book-gallery">
-            <div class="book-item">
-                <img src="book1.jpg" alt="Book 1">
-                <h3>Book Title 1</h3>
-            </div>
-            <div class="book-item">
-                <img src="book2.jpg" alt="Book 2">
-                <h3>Book Title 2</h3>
-            </div>
-            <div class="book-item">
-                <img src="book3.jpg" alt="Book 3">
-                <h3>Book Title 3</h3>
-            </div>
-        </div>
+    <!-- Bagian Tentang Kami -->
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Perpustakaan ini bertujuan untuk memberikan akses pendidikan kepada semua kalangan dengan berbagai koleksi buku elektronik yang dapat diakses kapan saja dan di mana saja.</p>
+    </section>
+
+    <!-- Bagian Galeri -->
+    <section id="gallery">
+        <h2>Galeri</h2>
+        <img src="images/perpustakaan.jpg" alt="Foto Perpustakaan">
+        <p>Ini adalah foto dari salah satu sudut perpustakaan kami.</p>
+    </section>
+
+    <!-- Bagian Tur Perpustakaan (Video) -->
+    <section id="tour">
+        <h2>Tur Perpustakaan</h2>
+        <video controls>
+            <source src="videos/tour_perpustakaan.mp4" type="video/mp4">
+            Browser Anda tidak mendukung tag video ini.
+        </video>
+        <p>Tur singkat tentang fasilitas yang ada di perpustakaan kami.</p>
+    </section>
+
+    <!-- Bagian Kontak -->
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Email: info@perpustakaan.com</p>
+        <p>Telepon: (021) 12345678</p>
     </section>
 
     <footer>
-        <p>© 2024 Library. All Rights Reserved.</p>
+        <p>&copy; 2024 Perpustakaan Digital. Semua Hak Cipta Dilindungi.</p>
     </footer>
-</body>
-</html>
 
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blok Web</title>
-    <style>
-        /* Gaya untuk blok 1 */
-        .block1 {
-            width: 300px;
-            height: 200px;
-            background-color: lightblue;
-            border: 2px solid darkblue;
-            padding: 10px;
-            margin: 20px;
-        }
-
-        /* Gaya untuk blok 2 */
-        .block2 {
-            width: 300px;
-            height: 200px;
-            background-color: lightgreen;
-            border: 2px solid darkgreen;
-            padding: 10px;
-            margin: 20px;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="block1">
-        Ini adalah blok 1.
-    </div>
-
-    <div class="block2">
-        Ini adalah blok 2.
-    </div>
-
+    <script src="script.js"></script>
 </body>
 </html>
