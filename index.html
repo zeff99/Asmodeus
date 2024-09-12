@@ -1,47 +1,54 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perpustakaan INKES</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Library Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Perpustakaan INKES</h1>
+        <div class="logo">
+            <img src="logo.png" alt="Library Logo">
+        </div>
         <nav>
             <ul>
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#">Buku</a></li>
-                <li><a href="#">Tentang Kami</a></li>
-                <li><a href="#">Kontak</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>Selamat Datang di Perpustakaan INKES</h2>
-        <p>Temukan buku-buku favorit Anda di sini!</p>
+    <section id="home">
+        <div class="banner">
+            <h1>Welcome to Our Library</h1>
+            <p>Explore a world of knowledge and adventure in books!</p>
+            <a href="#books" class="btn">Browse Books</a>
+        </div>
     </section>
 
-    <section class="buku-terbaru">
-        <h2>Buku Terbaru</h2>
+    <section id="books">
+        <h2>Featured Books</h2>
         <div class="book-gallery">
             <div class="book-item">
-                <img src="images/buku1.jpg" alt="Buku 1">
-                <h3>Judul Buku 1</h3>
-                <p>Deskripsi singkat buku 1</p>
+                <img src="book1.jpg" alt="Book 1">
+                <h3>Book Title 1</h3>
             </div>
             <div class="book-item">
-                <img src="images/buku2.jpg" alt="Buku 2">
-                <h3>Judul Buku 2</h3>
-                <p>Deskripsi singkat buku 2</p>
+                <img src="book2.jpg" alt="Book 2">
+                <h3>Book Title 2</h3>
+            </div>
+            <div class="book-item">
+                <img src="book3.jpg" alt="Book 3">
+                <h3>Book Title 3</h3>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Perpustakaan Kota. All rights reserved.</p>
+        <p>© 2024 Library. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
