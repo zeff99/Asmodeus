@@ -1,22 +1,29 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #333;
+h1, h2, h3, h4, h6 {
+    color: #4CAF50;
     text-align: center;
 }
 
-header {
-    margin-bottom: 20px;
+p {
+    text-align: justify;
+    margin: 10px 0;
 }
 
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
     border-radius: 10px;
 }
 
@@ -53,8 +60,8 @@ select {
 input[type="submit"] {
     background-color: #4CAF50;
     color: white;
+    padding: 10px 15px;
     border: none;
-    padding: 10px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -63,13 +70,6 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-iframe {
-    display: block;
-    margin: 20px auto;
-}
-
-footer {
-    text-align: center;
+form {
     margin-top: 20px;
-    color: #777;
 }
