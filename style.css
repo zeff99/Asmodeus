@@ -1,5 +1,4 @@
-/* Reset default styling */
-body, h1, h2, h3, h4, h5, h6, p {
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -12,19 +11,27 @@ body {
     line-height: 1.6;
 }
 
-/* Centered heading */
-h1 {
+/* Header styling */
+header {
     text-align: center;
-    text-decoration: underline;
-    color: #2c3e50;
-    margin: 20px 0;
+    padding: 20px;
 }
 
-/* Subheading */
+h1 {
+    color: #2c3e50;
+}
+
 h2 {
-    text-align: center;
     color: #34495e;
-    margin: 10px 0;
+}
+
+/* Section styling */
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Image styling */
@@ -33,35 +40,15 @@ img {
     height: auto;
     border: 2px solid #2980b9;
     border-radius: 10px;
+    display: block;
+    margin: 20px auto;
 }
 
-/* Centered iframe */
+/* Video styling */
 iframe {
     display: block;
     margin: 20px auto;
     border-radius: 10px;
-}
-
-/* Audio controls */
-audio {
-    display: block;
-    margin: 20px auto;
-}
-
-/* Paragraph styling */
-p {
-    text-align: center;
-    margin: 15px 0;
-}
-
-/* Button styling */
-a {
-    color: #2980b9;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 /* Footer styling */
