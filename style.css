@@ -6,8 +6,8 @@ body, h1, h2, h3, p {
 
 /* Body styling */
 body {
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ff0000; /* Latar belakang merah */
+    color: #ffffff; /* Teks putih */
     line-height: 1.6;
 }
 
